@@ -1,0 +1,154 @@
+
+body {
+	font-size: 12px;
+	font-family: sans-serif;
+	background: #2c5042;
+}
+
+/*menu barra azul*/
+nav {
+	margin: 27px auto 0; 
+
+	position: relative;
+	width: 1300px;/*largo de la barra de menu*/
+	height: 50px;/*ancho de la barra*/
+	background-color: #345e58;
+	border-radius: 8px;
+	font-size: 0;
+   /* hover {
+        width: 100px;
+        left: 0;
+        background-color: #1abc9c;*/
+}
+/*estilo a letras de menu dentro de la barra*/
+nav a {
+	line-height: 50px;
+	height: 100%;
+	font-size: 15px;
+	display: inline-block;
+	position: relative;
+    
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	cursor: pointer;
+}
+.nav a:hover{
+	opacity: 1;
+	cursor: pointer;
+}
+
+/*permite seleccionar varios elementos hijos de la clase indicando su posición*/
+a:nth-child(1) {
+	width: 140px;
+    
+}
+a:nth-child(2) {
+	width: 140px;
+}
+a:nth-child(3) {
+	width: 140px;
+}
+a:nth-child(4) {
+	width: 140px;
+}
+a:nth-child(5) {
+	width: 140px;
+}
+
+
+/*letra h2*/
+h1 {
+	text-align: center;
+	margin: 40px 0 40px;
+	text-align: center;
+	font-size: 30px;
+	color: blanchedalmond;
+	text-shadow: 2px 2px 4px #000000;/*sonbreado*/
+	font-family: 'Cherry Swash', cursive;
+}
+
+p {
+    
+    width: 100%;
+    text-align: center;
+    color: #ecf0f1;
+    font-family: 'Cherry Swash',cursive;
+    font-size: 16px;
+}
+/*text*/
+/**/img{
+   image-orientation: center;
+  
+}
+
+/*pagina de galeria*/
+.galeria{
+	width: 100%;
+
+}
+.galeria img {
+	vertical-align: top;
+	width: 350px;
+	margin: 20px;
+	border: 2px solid #f2f2f2;
+	padding: 5px;
+	opacity: 0.5;
+	
+}
+.galeria img:hover{
+	opacity: 1;
+	cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+/*pagina contacto*/
+.form{width:340px;height:440px;background:#e6e6e6;border-radius:8px;margin:calc(50vh - 220px) auto;padding:20px 30px;max-width:calc(100vw - 40px);box-sizing:border-box;font-family:'Montserrat',sans-serif;position:relative}
+h2{
+	width: 100%;
+    text-align: center;
+    color: #101618;
+    font-family: 'Arial';
+    font-size: 26px;
+    border-bottom:3px solid #78788c}
+input{width:100%;padding:10px;box-sizing:border-box;background:none;outline:none;resize:none;border:0;font-family:'Montserrat',sans-serif;border-bottom:2px solid #bebed2}
+p:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#5a5a5a}/*letra del formulario*/
+button:hover{background:#78788c;color:#fff ;}
+
+
+/*pagina pie*/
+.foote li { display:inline;}
+.foote li a { color:#999; margin:0 12px;}
+.foote {
+	list-style-type:none;
+	padding:0px;
+	display:table;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+}
+
+/*diseño caja productos*/
+
+.caja {
+    display: flex;
+    flex-wrap: nowrap; /*Esta propiedad se añade por defecto a una caja flex*/
+    align-items: center;
+	justify-content: center;
+	height: 400px;
+
+}
+
+.texto {
+    width: 300px;
+	margin-left: 15px;
+}
